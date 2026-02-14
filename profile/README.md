@@ -68,11 +68,11 @@ Every other project is a lightweight shim on top of tabby, because why rewrite p
 
 ## Why?
 
-SQL Server has been around for 30+ years. It has incredible enterprise features, rock-solid reliability, and a developer experience that peaked somewhere around SQL Server Management Studio 2012.
+SQL Server has been around for 30+ years. Its official drivers are incredible — they support customers running apps from every era, with backward compatibility that borders on heroic. That dedication is admirable.
 
-Meanwhile, Postgres developers get asyncpg, PostgREST, pgx, psql with readline, connection pooling that doesn't require a PhD, and drivers that install in under 3 seconds without downloading 50MB of ODBC headers.
+But what if you could start fresh? No legacy protocol versions. No ODBC layer. No 20 years of backward-compatible baggage. Just modern protocols, modern languages, and a cat.
 
-We're here to fix that. One cat at a time.
+That's CopyCat. We looked at what Postgres developers get — asyncpg, PostgREST, pgx, connection pooling, lightweight drivers — and thought: SQL Server deserves the same. One cat at a time.
 
 ## Credits & Inspiration
 
@@ -97,6 +97,6 @@ This project stands on the shoulders of giants (and some very patient database d
 
 ---
 
-*"In the beginning, there was SQL Server. And it was good. But the drivers were... not."*
+*"SQL Server's official drivers are awesome — battle-tested, rock-solid, and fiercely dedicated to supporting customers who've been running the same app since 2003. We respect that deeply. CopyCat is just a cat that wanted to see what happens when you start fresh with zero backward-compatibility baggage."*
 
-*CopyCat is here to change that. One purr at a time.* 🐱
+*One purr at a time.* 🐱
