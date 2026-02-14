@@ -25,11 +25,11 @@ Every other project is a lightweight shim on top of tabby, because why rewrite p
                          └────────┬────────────┘
                                   │
   ┌──────────┬───────────┬────────┴───┬──────────┬──────────┐
-  │  hiss 🐍 │whiskers 🐈│ pounce 🐾  │ yarn 🧶  │scratch 🪵│
+  │  hiss 🐍 │whiskers 🐈│ pounce 🐾  │ kibble 🍚  │claw 🐾│
   │ (async   │ (DB-API   │ (ADBC      │ (Node)   │ (Rust)   │
   │  Python) │  Python)  │  Arrow)    │          │          │
   ├──────────┼───────────┼────────────┼──────────┼──────────┤
-  │catnip 🌿 │ purr 💜   │hairball ☕  │furball 🤮│          │
+  │catnip 🌿 │ nuzzle 💜   │hairball ☕  │furball 🤮│          │
   │ (Go)     │ (.NET)    │ (JDBC)     │ (ODBC)   │          │
   └────┬─────┴─────┬─────┴──────┬─────┴────┬─────┴──────────┘
        │           │            │          │
@@ -56,12 +56,12 @@ Every other project is a lightweight shim on top of tabby, because why rewrite p
 | [**pounce**](https://github.com/copycatdb/pounce) 🐾 | adbc_driver_postgresql | Arrow-native ADBC driver. Zero-copy. Zero shame. |
 | [**hiss**](https://github.com/copycatdb/hiss) 🐍 | asyncpg | Async Python driver. Like asyncpg, but angrier. |
 | [**whiskers**](https://github.com/copycatdb/whiskers) 🐈 | psycopg2 | Python DB-API 2.0 driver. Standards-compliant, boring-reliable. |
-| [**scratch**](https://github.com/copycatdb/scratch) 🪵 | tokio-postgres | Idiomatic Rust API. Like tokio-postgres but it leaves marks. |
+| [**claw**](https://github.com/copycatdb/claw) 🪵 | tokio-postgres | Idiomatic Rust API. Like tokio-postgres but sharper. |
 | [**furball**](https://github.com/copycatdb/furball) 🤮 | psqlODBC | ODBC driver. Nobody asked for this but here we are. |
-| [**yarn**](https://github.com/copycatdb/yarn) 🧶 | node-postgres | Node.js driver. Because cats love yarn and so does npm. |
+| [**kibble**](https://github.com/copycatdb/kibble) 🧶 | node-postgres | Node.js driver. Feed your app data, one nugget at a time. |
 | [**catnip**](https://github.com/copycatdb/catnip) 🌿 | pgx | Go driver. pgx walked so catnip could run. |
 | [**hairball**](https://github.com/copycatdb/hairball) ☕ | pgjdbc | JDBC driver. We're sorry. Java made us do this. |
-| [**purr**](https://github.com/copycatdb/purr) 💜 | Npgsql | .NET ADO.NET driver. Npgsql with a SQL Server accent. |
+| [**nuzzle**](https://github.com/copycatdb/nuzzle) 💜 | Npgsql | .NET ADO.NET driver. Rubs up against ADO.NET just right. |
 | [**lazypaw**](https://github.com/copycatdb/lazypaw) 😴 | PostgREST | Instant REST API from your DB. Minimal effort. Maximum nap. |
 | [**catnap**](https://github.com/copycatdb/catnap) 💤 | PgBouncer | Connection pooler. PgBouncer but it lands on its feet. |
 | [**meow**](https://github.com/copycatdb/meow) 📟 | psql | CLI tool. psql, but with attitude. |
